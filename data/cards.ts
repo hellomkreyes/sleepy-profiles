@@ -1,9 +1,9 @@
-const cards = [
+export const cards = [
   {
-    name: "Blair Yang",
+    fullName: "Blair Yang",
     title: "The Sun Seeker",
-    cardFront: "",
-    cardBack: "",
+    cardFront: "/cards/blair-front.png",
+    cardBack: "/cards/blair-back.png",
     mbti: "ENTJ-A",
     enneagram: "3w2 (the Achiever)",
     moral: "Lawful Neutral",
@@ -11,10 +11,10 @@ const cards = [
     hogwarts: "Hufflepuff",
   },
   {
-    name: "M.K. Muere",
+    fullName: "M.K. Muere",
     title: "Crazy Witch Asian",
-    cardFront: "",
-    cardBack: "",
+    cardFront: "/cards/mk-front.png",
+    cardBack: "/cards/mk-back.png",
     mbti: "INFJ-T",
     enneagram: "4w5 (the Individualist)",
     moral: "Chaotic Good",
@@ -24,8 +24,8 @@ const cards = [
   {
     name: "Christo Luksatrio",
     title: "Amateur Dog Breed Namer",
-    cardFront: "",
-    cardBack: "",
+    cardFront: "/cards/christo-front.png",
+    cardBack: "/cards/christo-back.png",
     mbti: "ENTJ-A",
     enneagram: "2w3 (the Helper)",
     moral: "Neutral Good",
@@ -35,8 +35,8 @@ const cards = [
   {
     name: "Chris Li",
     title: "Unprofessional Title",
-    cardFront: "",
-    cardBack: "",
+    cardFront: "/cards/chris-front.png",
+    cardBack: "/cards/chris-back.png",
     mbti: "INTJ-T",
     enneagram: "Type 5 (the Investigator)",
     moral: "Neutral Good",
@@ -46,8 +46,8 @@ const cards = [
   {
     name: "Jasmine Kabiling",
     title: "Chief Snack Officer",
-    cardFront: "",
-    cardBack: "",
+    cardFront: "/cards/jasmine-front.png",
+    cardBack: "/cards/jasmine-back.png",
     mbti: "ESFJ-A",
     enneagram: "1w9 (the Reformer)",
     moral: "True Neutral",
@@ -57,8 +57,8 @@ const cards = [
   {
     name: "Corey Sheldrick",
     title: "Unapologetic Toronto Booster",
-    cardFront: "",
-    cardBack: "",
+    cardFront: "/cards/corey-front.png",
+    cardBack: "/cards/corey-back.png",
     mbti: "ENFJ-A",
     enneagram: "3w2 (the Achiever)",
     moral: "Lawful Good",
@@ -68,8 +68,8 @@ const cards = [
   {
     name: "Ina Yoon",
     title: "Cineplex ticket checker",
-    cardFront: "",
-    cardBack: "",
+    cardFront: "/cards/ina-front.png",
+    cardBack: "/cards/ina-back.png",
     mbti: "ESTJ-A",
     enneagram: "1w9 (the Reformer)",
     moral: "True Neutral",
@@ -79,8 +79,8 @@ const cards = [
   {
     name: "Josh Boissiere",
     title: "Spike’s Dad",
-    cardFront: "",
-    cardBack: "",
+    cardFront: "/cards/josh-front.png",
+    cardBack: "/cards/josh-back.png",
     mbti: "ENFJ-A",
     enneagram: "3w2 (the Achiever)",
     moral: "True Neutral",
