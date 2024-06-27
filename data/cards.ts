@@ -2,8 +2,8 @@ const cards = [
   {
     name: "Blair Yang",
     title: "The Sun Seeker",
-    background: "",
-    profile: "",
+    cardFront: "",
+    cardBack: "",
     mbti: "ENTJ-A",
     enneagram: "3w2 (the Achiever)",
     moral: "Lawful Neutral",
@@ -13,8 +13,8 @@ const cards = [
   {
     name: "M.K. Muere",
     title: "Crazy Witch Asian",
-    background: "",
-    profile: "",
+    cardFront: "",
+    cardBack: "",
     mbti: "INFJ-T",
     enneagram: "4w5 (the Individualist)",
     moral: "Chaotic Good",
@@ -24,8 +24,8 @@ const cards = [
   {
     name: "Christo Luksatrio",
     title: "Amateur Dog Breed Namer",
-    background: "",
-    profile: "",
+    cardFront: "",
+    cardBack: "",
     mbti: "ENTJ-A",
     enneagram: "2w3 (the Helper)",
     moral: "Neutral Good",
@@ -35,8 +35,8 @@ const cards = [
   {
     name: "Chris Li",
     title: "Unprofessional Title",
-    background: "",
-    profile: "",
+    cardFront: "",
+    cardBack: "",
     mbti: "INTJ-T",
     enneagram: "Type 5 (the Investigator)",
     moral: "Neutral Good",
@@ -46,8 +46,8 @@ const cards = [
   {
     name: "Jasmine Kabiling",
     title: "Chief Snack Officer",
-    background: "",
-    profile: "",
+    cardFront: "",
+    cardBack: "",
     mbti: "ESFJ-A",
     enneagram: "1w9 (the Reformer)",
     moral: "True Neutral",
@@ -57,8 +57,8 @@ const cards = [
   {
     name: "Corey Sheldrick",
     title: "Unapologetic Toronto Booster",
-    background: "",
-    profile: "",
+    cardFront: "",
+    cardBack: "",
     mbti: "ENFJ-A",
     enneagram: "3w2 (the Achiever)",
     moral: "Lawful Good",
@@ -68,8 +68,8 @@ const cards = [
   {
     name: "Ina Yoon",
     title: "Cineplex ticket checker",
-    background: "",
-    profile: "",
+    cardFront: "",
+    cardBack: "",
     mbti: "ESTJ-A",
     enneagram: "1w9 (the Reformer)",
     moral: "True Neutral",
@@ -79,12 +79,12 @@ const cards = [
   {
     name: "Josh Boissiere",
     title: "Spike’s Dad",
-    background: "",
-    profile: "",
+    cardFront: "",
+    cardBack: "",
     mbti: "ENFJ-A",
     enneagram: "3w2 (the Achiever)",
     moral: "True Neutral",
     character: "Light",
     hogwarts: "Ravenclaw",
-  }
+  },
 ];
