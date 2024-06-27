@@ -1,6 +1,9 @@
 import styles from "./Profile.module.css";
+import { cards } from "../../data/cards";
 
 const ProfileCard = () => {
+	// const cardFronts = cards.map((card) => card.cardFront);
+
 	return (
 		<div className={styles.scene}>
 			<label className={styles.cardWrap}>
