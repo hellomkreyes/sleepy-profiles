@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
+import Wheel from "../components/wheel";
 
 export default function Home() {
   return (
@@ -10,6 +11,8 @@ export default function Home() {
       </Head>
 
       <main>
+        <Wheel />
+        <div style={{ height: '300px' }}></div>
         <h1 className={styles.title}>INSERT CARDS HERE</h1>
 
         <p className={styles.description}>
