@@ -13,8 +13,12 @@
     transition: 0.5s;
 }
 
-.wrapper:hover .card {
-    transform: rotateY(-180deg) scale(1.2) translateY(-27px);
+.wrapper:hover .card:not(.reverse) {
+    transform: scale(1.2) translateY(-27px);
+}
+
+.reverse {
+    transform: rotateY(-180deg);
 }
 
 .face {
