@@ -1,5 +1,5 @@
 .wheel {
-    position: absolute;
+    position: relative;
     bottom: 0;
     width: 100%;
     height: 400px;
@@ -7,15 +7,13 @@
 }
 
 .spinner {
-    position: absolute;
+    position: relative;
     top: 20%;
     left: 50%;
-    transform: translateX(-50%) rotate(0deg);
-    animation:spin 40s linear infinite;
     transform-origin: 0 1000px;
 }
 
-@keyframes spin {
+@keyframes spin1 {
     100% {
         transform: translateX(-50%) rotate(360deg);
     }
@@ -26,144 +24,390 @@
     top: 0;
     transform-origin: center 1000px;
     transform: translateX(-50%);
+    animation:spin1 4000s linear infinite;
+}
+
+@keyframes spin2 {
+    100% {
+        transform: translateX(-50%) rotate(370deg);
+    }
 }
 
 .item:nth-child(2) {
     transform: translateX(-50%) rotate(10deg);
+    animation: spin2 4000s linear infinite;
+}
+
+@keyframes spin3 {
+    100% {
+        transform: translateX(-50%) rotate(380deg);
+    }
 }
 
 .item:nth-child(3) {
     transform: translateX(-50%) rotate(20deg);
+    animation: spin3 4000s linear infinite;
+}
+
+@keyframes spin4 {
+    100% {
+        transform: translateX(-50%) rotate(390deg);
+    }
 }
 
 .item:nth-child(4) {
     transform: translateX(-50%) rotate(30deg);
+    animation: spin4 4000s linear infinite;
+}
+
+@keyframes spin5 {
+    100% {
+        transform: translateX(-50%) rotate(400deg);
+    }
 }
 
 .item:nth-child(5) {
     transform: translateX(-50%) rotate(40deg);
+    animation: spin5 4000s linear infinite;
+}
+
+@keyframes spin6 {
+    100% {
+        transform: translateX(-50%) rotate(410deg);
+    }
 }
 
 .item:nth-child(6) {
     transform: translateX(-50%) rotate(50deg);
+    animation: spin6 4000s linear infinite;
+}
+
+@keyframes spin7 {
+    100% {
+        transform: translateX(-50%) rotate(420deg);
+    }
 }
 
 .item:nth-child(7) {
     transform: translateX(-50%) rotate(60deg);
+    animation: spin7 4000s linear infinite;
+}
+
+@keyframes spin8 {
+    100% {
+        transform: translateX(-50%) rotate(430deg);
+    }
 }
 
 .item:nth-child(8) {
     transform: translateX(-50%) rotate(70deg);
+    animation: spin8 4000s linear infinite;
+}
+
+@keyframes spin9 {
+    100% {
+        transform: translateX(-50%) rotate(440deg);
+    }
 }
 
 .item:nth-child(9) {
     transform: translateX(-50%) rotate(80deg);
+    animation: spin9 4000s linear infinite;
+}
+
+@keyframes spin10 {
+    100% {
+        transform: translateX(-50%) rotate(450deg);
+    }
 }
 
 .item:nth-child(10) {
     transform: translateX(-50%) rotate(90deg);
+    animation: spin10 4000s linear infinite;
+}
+
+@keyframes spin11 {
+    100% {
+        transform: translateX(-50%) rotate(460deg);
+    }
 }
 
 .item:nth-child(11) {
     transform: translateX(-50%) rotate(100deg);
+    animation: spin11 4000s linear infinite;
+}
+
+@keyframes spin12 {
+    100% {
+        transform: translateX(-50%) rotate(470deg);
+    }
 }
 
 .item:nth-child(12) {
     transform: translateX(-50%) rotate(110deg);
+    animation: spin12 4000s linear infinite;
+}
+
+@keyframes spin13 {
+    100% {
+        transform: translateX(-50%) rotate(480deg);
+    }
 }
 
 .item:nth-child(13) {
     transform: translateX(-50%) rotate(120deg);
+    animation: spin13 4000s linear infinite;
+}
+
+@keyframes spin14 {
+    100% {
+        transform: translateX(-50%) rotate(490deg);
+    }
 }
 
 .item:nth-child(14) {
     transform: translateX(-50%) rotate(130deg);
+    animation: spin14 4000s linear infinite;
+}
+
+@keyframes spin15 {
+    100% {
+        transform: translateX(-50%) rotate(500deg);
+    }
 }
 
 .item:nth-child(15) {
     transform: translateX(-50%) rotate(140deg);
+    animation: spin15 4000s linear infinite;
+}
+
+@keyframes spin16 {
+    100% {
+        transform: translateX(-50%) rotate(510deg);
+    }
 }
 
 .item:nth-child(16) {
     transform: translateX(-50%) rotate(150deg);
+    animation: spin16 4000s linear infinite;
+}
+
+@keyframes spin17 {
+    100% {
+        transform: translateX(-50%) rotate(520deg);
+    }
 }
 
 .item:nth-child(17) {
     transform: translateX(-50%) rotate(160deg);
+    animation: spin17 4000s linear infinite;
+}
+
+@keyframes spin18 {
+    100% {
+        transform: translateX(-50%) rotate(530deg);
+    }
 }
 
 .item:nth-child(18) {
     transform: translateX(-50%) rotate(170deg);
+    animation: spin18 4000s linear infinite;
+}
+
+@keyframes spin19 {
+    100% {
+        transform: translateX(-50%) rotate(540deg);
+    }
 }
 
 .item:nth-child(19) {
     transform: translateX(-50%) rotate(180deg);
+    animation: spin19 4000s linear infinite;
+}
+
+@keyframes spin20 {
+    100% {
+        transform: translateX(-50%) rotate(550deg);
+    }
 }
 
 .item:nth-child(20) {
     transform: translateX(-50%) rotate(190deg);
+    animation: spin20 4000s linear infinite;
+}
+
+@keyframes spin21 {
+    100% {
+        transform: translateX(-50%) rotate(560deg);
+    }
 }
 
 .item:nth-child(21) {
     transform: translateX(-50%) rotate(200deg);
+    animation: spin21 4000s linear infinite;
+}
+
+@keyframes spin22 {
+    100% {
+        transform: translateX(-50%) rotate(570deg);
+    }
 }
 
 .item:nth-child(22) {
     transform: translateX(-50%) rotate(210deg);
+    animation: spin22 4000s linear infinite;
+}
+
+@keyframes spin23 {
+    100% {
+        transform: translateX(-50%) rotate(580deg);
+    }
 }
 
 .item:nth-child(23) {
     transform: translateX(-50%) rotate(220deg);
+    animation: spin23 4000s linear infinite;
+}
+
+@keyframes spin24 {
+    100% {
+        transform: translateX(-50%) rotate(590deg);
+    }
 }
 
 .item:nth-child(24) {
     transform: translateX(-50%) rotate(230deg);
+    animation: spin24 4000s linear infinite;
+}
+
+@keyframes spin25 {
+    100% {
+        transform: translateX(-50%) rotate(600deg);
+    }
 }
 
 .item:nth-child(25) {
     transform: translateX(-50%) rotate(240deg);
+    animation: spin25 4000s linear infinite;
+}
+
+@keyframes spin26 {
+    100% {
+        transform: translateX(-50%) rotate(610deg);
+    }
 }
 
 .item:nth-child(26) {
     transform: translateX(-50%) rotate(250deg);
+    animation: spin26 4000s linear infinite;
+}
+
+@keyframes spin27 {
+    100% {
+        transform: translateX(-50%) rotate(620deg);
+    }
 }
 
 .item:nth-child(27) {
     transform: translateX(-50%) rotate(260deg);
+    animation: spin27 4000s linear infinite;
+}
+
+@keyframes spin28 {
+    100% {
+        transform: translateX(-50%) rotate(630deg);
+    }
 }
 
 .item:nth-child(28) {
     transform: translateX(-50%) rotate(270deg);
+    animation: spin28 4000s linear infinite;
+}
+
+@keyframes spin29 {
+    100% {
+        transform: translateX(-50%) rotate(640deg);
+    }
 }
 
 .item:nth-child(29) {
     transform: translateX(-50%) rotate(280deg);
+    animation: spin29 4000s linear infinite;
+}
+
+@keyframes spin30 {
+    100% {
+        transform: translateX(-50%) rotate(650deg);
+    }
 }
 
 .item:nth-child(30) {
     transform: translateX(-50%) rotate(290deg);
+    animation: spin30 4000s linear infinite;
+}
+
+@keyframes spin31 {
+    100% {
+        transform: translateX(-50%) rotate(660deg);
+    }
 }
 
 .item:nth-child(31) {
     transform: translateX(-50%) rotate(300deg);
+    animation: spin31 4000s linear infinite;
+}
+
+@keyframes spin32 {
+    100% {
+        transform: translateX(-50%) rotate(670deg);
+    }
 }
 
 .item:nth-child(32) {
     transform: translateX(-50%) rotate(310deg);
+    animation: spin32 4000s linear infinite;
+}
+
+@keyframes spin33 {
+    100% {
+        transform: translateX(-50%) rotate(680deg);
+    }
 }
 
 .item:nth-child(33) {
     transform: translateX(-50%) rotate(320deg);
+    animation: spin33 4000s linear infinite;
+}
+
+@keyframes spin34 {
+    100% {
+        transform: translateX(-50%) rotate(690deg);
+    }
 }
 
 .item:nth-child(34) {
     transform: translateX(-50%) rotate(330deg);
+    animation: spin34 4000s linear infinite;
+}
+
+@keyframes spin35 {
+    100% {
+        transform: translateX(-50%) rotate(700deg);
+    }
 }
 
 .item:nth-child(35) {
     transform: translateX(-50%) rotate(340deg);
+    animation: spin35 4000s linear infinite;
+}
+
+@keyframes spin36 {
+    100% {
+        transform: translateX(-50%) rotate(710deg);
+    }
 }
 
 .item:nth-child(36) {
     transform: translateX(-50%) rotate(350deg);
+    animation: spin36 4000s linear infinite;
 }
