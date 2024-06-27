@@ -18,7 +18,7 @@
 }
 
 .reverse {
-    transform: rotateY(-180deg);
+    transform: scale(1.5) rotateY(-180deg);
 }
 
 .face {
