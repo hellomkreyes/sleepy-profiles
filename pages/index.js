@@ -11,6 +11,8 @@ export default function Home() {
       </Head>
 
       <main>
+        <h1>Draw a card below</h1>
+        <p>Click on a card to reveal it's details.</p>
         <Wheel />
       </main>
 
