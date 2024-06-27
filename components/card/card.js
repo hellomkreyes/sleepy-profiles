@@ -1,11 +1,11 @@
 import styles from './Card.module.css';
 
-const Card = () => {
+const Card = ({ front, back }) => {
   return (
     <div className={styles.wrapper}>
       <div className={styles.card}>
-        <div className={styles.face}>Page 1</div>
-        <div className={`${styles.face} ${styles.back}`}>Page 2</div>
+        <div className={styles.face}>{ front }</div>
+        <div className={`${styles.face} ${styles.back}`}>{ back }</div>
       </div>
     </div>
   )

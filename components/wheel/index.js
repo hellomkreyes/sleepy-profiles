@@ -8,7 +8,7 @@ const Wheel = () => {
         {
           (new Array(36)).fill(0).map((_, i) => (
             <div key={i} className={styles.item}>
-              <Card />
+              <Card front={`${i} Front`} back={`${i} Back`} />
             </div>
           ))
         }
