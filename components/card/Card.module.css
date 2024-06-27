@@ -13,11 +13,11 @@
     transition: 0.5s;
 }
 
-.wrapper:hover .card {
-    -webkit-transform: rotateY(-180deg);
-    -moz-transform: rotateY(-180deg);
-    -ms-transform: rotateY(-180deg);
-    -o-transform: rotateY(-180deg);
+.wrapper:hover .card:not(.reverse) {
+    transform: scale(1.2) translateY(-27px);
+}
+
+.reverse {
     transform: rotateY(-180deg);
 }
 
