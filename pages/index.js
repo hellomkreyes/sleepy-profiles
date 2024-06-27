@@ -1,6 +1,7 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import Wheel from "../components/wheel";
+import ProfileCard from "../components/profile-card/profile-card";
 
 export default function Home() {
 	return (
